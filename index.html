@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>The Smart Notes — Learn & Organize</title>
+  <meta name="description" content="The Smart Notes — A clean, simple demo site to learn hosting, SEO, and web fundamentals." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://thesmartnotes.xyz/" />
+
+  <!-- Open Graph (Facebook / Social) -->
+  <meta property="og:title" content="The Smart Notes — Learn & Organize" />
+  <meta property="og:description" content="A tiny demo site for learning hosting and SEO." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thesmartnotes.xyz/" />
+  <meta property="og:image" content="https://thesmartnotes.xyz/images/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="images/favicon.ico" />
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "url":"https://thesmartnotes.xyz/",
+    "name":"The Smart Notes",
+    "description":"Simple notes and learning site demo for SEO & hosting."
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Smart Notes Logo" class="logo" />
+    <h1>The Smart Notes</h1>
+    <p class="tagline">Simple notes, clear learning.</p>
+  </header>
+
+  <main>
+    <section id="demo">
+      <h2>Try a Demo Note</h2>
+      <p>Add a note to see it appear below:</p>
+
+      <input id="noteInput" placeholder="Type your note..." />
+      <button id="saveBtn">Save Note</button>
+
+      <ul id="notesList"></ul>
+    </section>
+
+    <section id="about">
+      <h2>About This Site</h2>
+      <p>
+        This static site is created only for learning purposes — testing hosting, DNS,
+        SEO, sitemap, robots.txt, and Google Search Console indexing.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© The Smart Notes — 2025</p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
